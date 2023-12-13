@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
-    <!-- You can link external stylesheets or add styles here -->
+    <title>Simon Wittum - Portfolio</title>
     <style>
-        /* Add your CSS styles here */
+        /* General styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -18,20 +17,62 @@
             padding: 10px;
             text-align: center;
         }
-        /* Add more styles for your content */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        /* Section styles */
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #333;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Simon Wittum's Portfolio</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <!-- Add more links for additional sections -->
+        </ul>
+    </nav>
     <main>
-        <section>
+        <section id="about">
             <h2>About Me</h2>
-            <p>This is a test website. Let's see if am able to 
-                link you to another page...</p>
+            <p>I'm Simon Wittum, a passionate [your profession or interests]. I love [specific interest or hobby]. My journey in [relevant field] has been [brief description]. Feel free to [add a call-to-action or any specific information].</p>
         </section>
-        <!-- Add more sections or content as needed -->
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <p>Description of Project 1. Add details about the technologies used, your role, and any specific achievements.</p>
+            </div>
+            <div class="project">
+                <h3>Project Title 2</h3>
+                <p>Description of Project 2. Add details about the technologies used, your role, and any specific achievements.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
     </main>
     <footer>
         <p>&copy; 2023 Simon Wittum</p>
