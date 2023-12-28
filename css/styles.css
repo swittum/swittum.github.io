@@ -68,3 +68,42 @@ object, embed, iframe {
     width: 70%;
     height: 500vh; /* Adjust as needed */
 }
+
+.pdf-iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* CSS for the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Styling for the contact section */
+footer #contact {
+    text-align: left;
+}
+
+footer #contact h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+footer #contact p {
+    margin: 0;
+}
+
+footer #contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer #contact a:hover {
+    text-decoration: underline;
+}
