@@ -1,5 +1,15 @@
 /* styles.css */
 
+/* Define styles for smaller screens (e.g., mobile devices) */
+@media (max-width: 767px) {
+    /* Adjust font sizes, margins, paddings, etc. for smaller screens */
+    /* Example: */
+    body {
+        font-size: 14px;
+    }
+    /* You can modify styles for specific elements as needed */
+}
+
 /* Apply styles to the body */
 body {
     font-family: Arial, sans-serif;
