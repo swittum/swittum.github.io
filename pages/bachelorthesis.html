@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bachelor Thesis</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
-    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        body {
+            margin: 0;
+            display: flex; /* Use flexbox for layout */
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+        }
+        #pdf-container {
+            width: 80vw; /* Adjust the width of the container */
+            height: 80vh; /* Adjust the height of the container */
+        }
+        iframe {
+            width: 100%; /* Fill the container horizontally */
+            height: 100%; /* Fill the container vertically */
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <div class="pdf-container">
-        <iframe src="../assets/Bachelorthesis_SimonWittum_3319071.pdf" class="pdf-iframe"></iframe>
-    </div>    
+    this is the test
+    <a href="../assets/Bachelorthesis_SimonWittum_3319071.pdf" target="_blank">TEST</a>
+</body>
 </html>
