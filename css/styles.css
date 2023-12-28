@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Apply styles to the container */
+.container {
+    max-width: 800px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+/* Apply styles to the header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Apply styles to main sections */
+main {
+    padding-top: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Apply styles to links */
+a {
+    color: #009688;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

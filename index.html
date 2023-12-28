@@ -1,27 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Simon Wittum</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1> Simon Wittum </h1>
-    <h2> About Me </h2>
-    <p> I am currently doing my physics master jointly at ETH Zurich and École Polytechnique Paris (l'X) 
-        majoring in theoretical high energy physics. Aside from physis and mathematics, I am also
-        intersted in computer science and machine learning, electrical engineering and music. In my
-        free time, I like to go swimming and running, or hike the alps. With this website, I would
-        like to share some of my projects and interests with anyone who is interested.
-    </p>
-    <h2> Projects </h2>
-    <p> 
-        I wrote my bachelor thesis at Rheinische Friedrich-Wilhelms Universität Bonn in the 
-        research group "Theoretical Quantum Physics" by Corinna Kollath. In my thesis, I investigated
-        the dynamics of a Floquet driven one and two particle Hubbard model. For more informtion,
-        check out the link below.
-     </p>
-   <a href="bachelorthesis.html"> Bachelor Thesis</a>
+    <div class="container">
+        <header>
+            <h1>Simon Wittum</h1>
+            <nav>
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    I am currently pursuing my physics master's at ETH Zurich and École
+                    Polytechnique Paris (l'X), majoring in theoretical high energy physics. Aside
+                    from physics, I am also very much interested in computer science and machine
+                    learning, electrical engineering and music. In my free time, I like to hit go
+                    swimming, go running or have fun in the alps. With this website, I would
+                    like to share some of my projects with anyone who is interested.
+                </p>
+            </section>
+            
+            <section id="projects">
+                <h2>Projects</h2>
+                <h3>Bachelor Thesis</h3>
+                <p>
+                    I wrote my bachelor thesis at Rheinische Friedrich-Wilhelms Universität Bonn in
+                    the <a href="https://www.pi.uni-bonn.de/kollath/en">Theoretical Quantum Physics</a>
+                    research group by prof. Corinna Kollath. In my thesis, I investigated the dynamics
+                    of a Floquet driven Hubbard model filled with one and two particles. You can find 
+                    my bachelor thesis clicking <a href="pages/bachelorthesis.html">here</a>.
+                    </a>
+                </p>
+            </section>
+
+            <section id="blog">
+                <h2>Blog</h2>
+                <p>
+                    In my <a href="pages/blog.html"> blog</a>, I am writing about study related topics that I am currently working
+                    with. Most of the things are not my own ideas, but existing concepts that I am
+                    trying to understand by explaining them in my own words to a broader audience.
+                </p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>
+                    You can contact me via my email address 
+                    <a href="mailto:swittum@student.ethz.ch">swittum@student.ethz.ch</a>
+        </main>
+    </div>
 </body>
-</html
+</html>
