@@ -65,22 +65,12 @@ a:hover {
 }
 
 /* CSS for the footer */
-/* footer {
+footer {
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
-    position: fixed;
     bottom: 0;
-    width: 100%;
-} */
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #f2f2f2; /* Adjust color as needed */
-    padding: 10px; /* Adjust padding for content */
-    z-index: 1000; /* Set z-index to be above main content */
+    width: 100%
 }
 
 /* Styling for the contact section */
