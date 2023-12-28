@@ -64,14 +64,19 @@ a:hover {
     text-decoration: underline;
 }
 
-object, embed, iframe {
-    width: 70%;
-    height: 500vh; /* Adjust as needed */
+.pdf-iframe {
+    border: none;
+    width: 80%;
+    height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.pdf-iframe {
-    width: 90vh;
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    background-color: #f5f5f5;
 }
 
 /* CSS for the footer */
