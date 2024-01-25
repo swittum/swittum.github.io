@@ -27,13 +27,29 @@ body {
 
 /* Apply styles to the header */
 header {
+    background: #3498db;
+    color: #342f2f;
+    padding: 20px;
     text-align: center;
-    padding: 20px 0;
+    font-family: 'Source Code Pro', monospace;
+    position: relative; /* Set position to enable z-index */
+}
+
+.header-content {
+    background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the content */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.header-content h1 {
+    margin: 0;
 }
 
 header h1 {
     margin: 0;
 }
+
 
 nav {
     margin-top: 10px;
